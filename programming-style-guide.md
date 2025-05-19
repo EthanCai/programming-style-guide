@@ -326,7 +326,7 @@ Go 语言支持 C 风格的块注释 `/* */` 和 C++ 风格的行注释 `//`。 
 
 对于包含多个文件的包，允许包注释出现在其中的任一文件中。如果包中的源代码文件比较多而无法挑选代表包的主要源文件，可以在包目录下创建一个 doc.go 文件，专门用于保存包注释内容。比如：fmt 包的注释 [doc.go - Go](https://cs.opensource.google/go/go/+/master:src/fmt/doc.go)
 
-![image-20250518000429543](/Users/ccy/work/my-projects/programming-style-guide/assets/image-20250518000429543.png)
+![image-20250518000429543](./assets/image-20250518000429543.png)
 
 函数注释应放置在 func 前，且和 func 的声明之间不要有空行。
 
@@ -348,7 +348,7 @@ godoc 会将已缩进的文本以等宽字体显示，来适应对应的程序�
 
 | go注释 | godoc生成的文档 |
 | --- | --- |
-| ![image-20250514103105623](/Users/ccy/work/my-projects/programming-style-guide/assets/image-20250514103105623.png)[doc.go - Go](https://cs.opensource.google/go/go/+/master:src/fmt/doc.go) | ![image-20250514103202872](/Users/ccy/work/my-projects/programming-style-guide/assets/image-20250514103202872.png)  [fmt package - fmt - Go Packages](https://pkg.go.dev/fmt) |
+| ![image-20250514103105623](./assets/image-20250514103105623.png)[doc.go - Go](https://cs.opensource.google/go/go/+/master:src/fmt/doc.go) | ![image-20250514103202872](./assets/image-20250514103202872.png)  [fmt package - fmt - Go Packages](https://pkg.go.dev/fmt) |
 
 godoc 是否会重新格式化注释取决于上下文，因此请确保它们看起来清晰易读： 使用正确的拼写、标点和语句结构以及折叠长行等。
 
@@ -428,8 +428,8 @@ $ go doc -all regexp | grep -i parse
 
 | 示例源代码 | godoc页面的 代码示例 |
 | --- | --- |
-| ![image-20250514105050954](/Users/ccy/work/my-projects/programming-style-guide/assets/image-20250514105050954.png)  [访问页面](https://cs.opensource.google/go/go/%2B/refs/tags/go1.17.2%3Asrc/strings/example_test.go;l=18) | ![image-20250514105112203](/Users/ccy/work/my-projects/programming-style-guide/assets/image-20250514105112203.png)  [访问页面](https://pkg.go.dev/strings#Fields) |
-| ![image-20250514105646622](/Users/ccy/work/my-projects/programming-style-guide/assets/image-20250514105646622.png)  [访问页面](https://github.com/Andrew-M-C/go.jsonvalue/blob/master/example_jsonvalue_test.go) | ![image-20250514105711021](/Users/ccy/work/my-projects/programming-style-guide/assets/image-20250514105711021.png) [访问页面](https://pkg.go.dev/github.com/Andrew-M-C/go.jsonvalue#pkg-examples) |
+| ![image-20250514105050954](./assets/image-20250514105050954.png)  [访问页面](https://cs.opensource.google/go/go/%2B/refs/tags/go1.17.2%3Asrc/strings/example_test.go;l=18) | ![image-20250514105112203](./assets/image-20250514105112203.png)  [访问页面](https://pkg.go.dev/strings#Fields) |
+| ![image-20250514105646622](./assets/image-20250514105646622.png)  [访问页面](https://github.com/Andrew-M-C/go.jsonvalue/blob/master/example_jsonvalue_test.go) | ![image-20250514105711021](./assets/image-20250514105711021.png) [访问页面](https://pkg.go.dev/github.com/Andrew-M-C/go.jsonvalue#pkg-examples) |
 
 ## 命名（Names）
 
