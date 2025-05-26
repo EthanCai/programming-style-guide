@@ -213,4 +213,6 @@ DEBUG日志和INFO日志的一个重要的区别是，INFO日志用于记录常�
 # 8. 参考
 
 * [最佳日志实践（v2.0）](https://zhuanlan.zhihu.com/p/27363484)
+* [掌握Linux系统日志记录的最佳实践方法](https://my.oschina.net/emacs_8784621/blog/17257271)
+* [The Log: What every software engineer should know about real-time data's unifying abstraction | LinkedIn Engineering](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 
